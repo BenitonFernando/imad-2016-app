@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/bione',function (req, res){
-   res.send('Beni one runs suucesfully'); 
+  res.sendFile(path.join(__dirname, 'ui', 'bione.html'));
 });
 
 app.get('/bitwo',function (req, res){
