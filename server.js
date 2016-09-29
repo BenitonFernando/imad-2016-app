@@ -9,17 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/bione',function (req, res){
-  res.sendFile(path.join(__dirname, 'ui', 'bione.html'));
-});
 
-app.get('/bitwo',function (req, res){
-   res.send('Beni two runs suucesfully'); 
-});
-
-app.get('/bithree',function (req, res){
-   res.send('Beni three runs suucesfully'); 
-});
 
 
 app.get('/ui/style.css', function (req, res) {
